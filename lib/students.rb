@@ -1,6 +1,11 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
+require 'create'
+require 'insert'
+
+
 
 def highest_student_gpa
+    'SELECT AVG(gpa) FROM students' 
 end
 
 def lowest_student_gpa
